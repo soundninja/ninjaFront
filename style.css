@@ -654,6 +654,8 @@ iframe{
 
 .blackHeader {
     color: black!important;
+    margin-top: 0;
+    font-weight: bold;
 }
 
 .linkText {
