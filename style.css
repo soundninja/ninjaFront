@@ -849,6 +849,10 @@ iframe {
     margin-bottom: -100px;
 }
 
+#bloc-1 h2 {
+    margin-top: 20px;
+}
+
 @media (max-width: 767px) {
     #bloc-1 .col-sm-12 {
         margin-top: 0px;

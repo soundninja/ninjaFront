@@ -17,6 +17,12 @@
     <script src="./js/jquery-2.1.0.min.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/blocs.js"></script>
+    <script src="//use.typekit.net/oyk2fop.js"></script>
+    <script>
+        try {
+            Typekit.load();
+        } catch (e) {}
+    </script>
 
     <title>Soundninja</title>
 </head>
@@ -56,11 +62,17 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <h2 class=" text-center mg-md coolFont">
-					The embed player Spotify wish they made
+					The website plug-in Spotify wish they made
 				</h2>
                         <div class="row">
                             <div class="col-sm-12 demo">
                                 <div class="window">
+                                    <div class="demo-helper">
+                                        <!--
+                                                            <div class="demobox_helper-arrow"></div> <span class="device-switcher-no-touch">Hover your mouse over</span><span class="device-switcher-touch">Tap the icon next to</span> the artists’ names! </div>
+                                    
+-->
+                                        <div class="demo-helper-arrow"></div>Hover your mouse over the musicians’ names!</div>
                                     <div class="titlebar">
                                         <!--
                                         <div class="buttons">
@@ -78,7 +90,7 @@
                                         <h3 class="blackHeader">This Week's Knock</h3>
                                         <p class="authorText linkText">25th Jun 2015 &nbsp; &nbsp; &nbsp; Joe Bloggart</p>
                                         <div class="entryDemo">
-                                        <img class="demoPic" src="img/demoPic.png" />
+                                            <img class="demoPic" src="img/demoPic.png" />
                                             <p class="ptext">Netherlands based indie-disco production duo Keljet have been tearing up dance floors and inciting parties for over a half decade. With support from industry heavyweights like Kygo , The Knocks , Oliver Heldens , Goldroom and Zimmer , the homie’s pop meets tropical disco sound can make anyone get up and dance… even your grandma. Here they are with their newest material, a funky bootleg of The Weeknd’s “Can’t Feel My Face.”</p>
 
                                             <p class="ptext">Cop their debut EP Transatlantic next week.</p>
@@ -96,14 +108,14 @@
                                     </div>
                                 </div>
                                 <script>
-                                        var SoundninjaOpts = {
-                                            selector: '.entryDemo',
-                                            selectorFullMatch: false,
-                                            minHotttnesss: 0.6707,
-                                            minFamiliarity: 0.6707
-                                        }
-                                    </script>
-                                    <script src="http://soundninja.github.io/demos/build/Soundninja.min.js" type="application/javascript" async="async"></script>
+                                    var SoundninjaOpts = {
+                                        selector: '.entryDemo',
+                                        selectorFullMatch: false,
+                                        minHotttnesss: 0.6707,
+                                        minFamiliarity: 0.6707
+                                    }
+                                </script>
+                                <script src="http://soundninja.github.io/demos/build/Soundninja.min.js" type="application/javascript" async="async"></script>
                             </div>
                         </div>
                     </div>
