@@ -861,6 +861,10 @@ iframe {
     .topHat {
         margin-top: 100px;
     }
+    #bloc-3 .col-sm-3 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }
 
 #bloc-2 {
@@ -869,11 +873,6 @@ iframe {
     box-shadow: 0 -1px 0 1px #eb412b;
     margin-top: 50px;
 */
-}
-
-#bloc-3 .col-sm-3 {
-  margin-left: 15px;
-  margin-right: 15px;
 }
 
 #bloc-7 .icon-md {

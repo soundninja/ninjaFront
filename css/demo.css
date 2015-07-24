@@ -42,7 +42,7 @@
     visibility: visible;
 }
 
-.close {
+.closeBtn {
     background: #ff5c5c;
     font-size: 9pt;
     width: 11px;
@@ -52,22 +52,7 @@
     display: inline-block;
 }
 
-.close:active {
-    background: #c14645;
-    border: 1px solid #b03537;
-}
-
-.close:active .closebutton {
-    color: #4e0002;
-}
-
-.closebutton {
-    color: #820005;
-    visibility: hidden;
-    cursor: default;
-}
-
-.minimize {
+.minimizeBtn {
     background: #ffbd4c;
     font-size: 9pt;
     line-height: 11px;
@@ -79,46 +64,16 @@
     display: inline-block;
 }
 
-.minimize:active {
-    background: #c08e38;
-    border: 1px solid #af7c33;
-}
-
-.minimize:active .minimizebutton {
-    color: #5a2607;
-}
-
-.minimizebutton {
-    color: #9a5518;
-    visibility: hidden;
-    cursor: default;
-}
-
-.zoom {
+.zoomBtn {
     background: #00ca56;
     font-size: 9pt;
     line-height: 11px;
-    margin-left: 6px;
+    margin-left: 5px;
     width: 11px;
     height: 11px;
     border: 1px solid #14ae46;
     border-radius: 50%;
     display: inline-block;
-}
-
-.zoom:active {
-    background: #029740;
-    border: 1px solid #128435;
-}
-
-.zoom:active .zoombutton {
-    color: #003107;
-}
-
-.zoombutton {
-    color: #006519;
-    visibility: hidden;
-    cursor: default;
 }
 
 .content {
@@ -156,7 +111,7 @@
 }
 
 .demo-helper {
-    color: #433636;
+    color: #303030;
     font-family: "verveine", cursive;
     font-size: 22px;
     right: 30px;
@@ -181,6 +136,13 @@
     z-index: 1;
 }
 
+.windowTitle {
+/*
+    position: relative;
+    margin-right: 50px;
+*/
+}
+
 @media (min-width: 768px) {
     .window {
         width: 600px;
@@ -191,8 +153,23 @@
 
 @media (max-width: 400px) {
     .window {
+        margin-top: 60px;
         margin-left: 15px;
         margin-right: 15px;
+    }
+    .demoPic {
+        display: none;
+    }
+    .demo-helper {
+        top: -69px;
+        right: 14px;
+    }
+    .demo-helper-arrow {
+        top: 111px;
+        right: -27px;
+        width: 171px;
+        -webkit-transform: rotate(-93deg);
+        transform: rotate(93deg);
     }
 }
 
@@ -203,7 +180,7 @@
     .content h4,
     .content h5,
     .content h6,
-    p {
+    .content p {
         padding-left: 0px!important;
         padding-right: 0px!important;
     }
