@@ -142,7 +142,7 @@
     height: 50px;
     position: absolute;
     right: 96px;
-    -webkit-transform: rotate(-128deg);
+    -webkit-transform: rotate(128deg);
     transform: rotate(128deg);
     top: 83px;
     width: 122px;
@@ -181,7 +181,7 @@
         top: 84px;
         right: -4px;
         width: 101px;
-        -webkit-transform: rotate(-93deg);
+        -webkit-transform: rotate(93deg);
         transform: rotate(93deg);
     }
 }
