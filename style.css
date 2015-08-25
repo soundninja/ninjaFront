@@ -853,6 +853,16 @@ iframe {
     margin-top: 20px;
 }
 
+#bloc-1 .subHeader {
+    font-size: 24px;
+    color: #EAEAEA;
+}
+
+#bloc-1 .subHeader i {
+    color: #fff;
+    font-size: 1.15em;
+}
+
 @media (max-width: 767px) {
     #bloc-1 .col-sm-12 {
         margin-top: 0px;
@@ -887,4 +897,16 @@ iframe {
 .coolIcons {
     margin-bottom: 10px;
     width: 200px;
+}
+
+#contactUs .modal-title {
+    color: #F95C5C;
+}
+
+#contactUs .modal-header {
+    padding-bottom: 10px;
+}
+
+#contactUs .modal-body {
+    padding-top: 0px;
 }
