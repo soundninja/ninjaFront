@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="The plug-in Spotify wish they made">
     <meta name="keywords" content="music, plugin, plug-in, tech, website, blog">
-    <meta name="description" content="The website plug-in Spotify wish they made.">
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
@@ -47,7 +47,7 @@
                                 <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <a href="#contactUs" data-toggle="modal">Login</a>
+                                <a href="#loginModal" data-toggle="modal">Login</a>
                             </li>
                         </ul>
                     </div>
@@ -64,7 +64,7 @@
                         <h2 class=" text-center mg-lg coolFont">
 					The plugin Spotify wish they made
 				</h2>
-                        <p class="mg-md text-center subHeader">Let your readers <i>hear</i>  the artists you write about</p>
+                        <p class="mg-md text-center subHeader">Let your readers <i>hear</i> the artists you write about</p>
                         <div class="row">
                             <div class="col-sm-12 demo">
                                 <div class="window">
@@ -300,17 +300,46 @@
     </div>
     <!-- Main container END -->
 
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <h3 class="modal-title text-center coolFont">Login</h3>
+                </div>
+                <div class="modal-body">
+                    <form class="form center-block">
+                        <div class="form-group">
+                            <input type="email" class="form-control input-lg" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control input-lg" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-pastel-red btn-d btn-glossy btn-lg btn-block">Sign In</button>
+                            <span class="pull-right"><a href="#">Forgot password?</a></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login Modal END -->
+
     <!-- Contact Modal -->
     <div id="contactUs" class="modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
         <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h3 class="modal-title text-center coolFont">Say hello</h3>
-      </div>
-      <div class="modal-body">
-                <script type="text/javascript" src="https://secure.jotform.us/jsform/52362740426149"></script>
-      </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <h3 class="modal-title text-center coolFont">Say hello</h3>
+                </div>
+                <div class="modal-body">
+                    <script type="text/javascript" src="https://secure.jotform.us/jsform/52362740426149"></script>
+                </div>
             </div>
         </div>
     </div>
