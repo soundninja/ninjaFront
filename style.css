@@ -882,6 +882,8 @@ button:focus {
 
 #bloc-1 h2 {
     margin-top: 20px;
+    font-size: 54px;
+    line-height: 1.3;
 }
 
 #bloc-1 .subHeader {
@@ -889,7 +891,7 @@ button:focus {
     color: #EAEAEA;
 }
 
-#bloc-1 .subHeader i {
+#bloc-1 .subHeader b {
     color: #fff;
     font-size: 1.15em;
 }
@@ -944,4 +946,9 @@ button:focus {
 
 #loginModal {
     
+}
+
+.titleContainer {
+    margin-left: auto;
+    margin-right: auto;
 }
