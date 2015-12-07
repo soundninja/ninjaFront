@@ -1,4 +1,6 @@
 /*-----------------------------------------------------------------------------------*/
+
+
 /*	    ninjaFront
 /*      Built with Blocs
 /*-----------------------------------------------------------------------------------*/
@@ -20,6 +22,8 @@ a:hover {
 button {
     outline: none!important;
 }
+
+
 /* Prevent ugly blue glow on chrome and safari */
 
 @font-face {
@@ -28,6 +32,8 @@ button {
     font-weight: bold;
     font-style: normal;
 }
+
+
 /* Globals type styling */
 
 h1,
@@ -56,11 +62,15 @@ a {
 .coolFont a {
     font-family: League Spartan;
 }
+
+
 /* Site container width */
 
 .container {
     max-width: 1170px;
 }
+
+
 /* = Blocs
 -------------------------------------------------------------- */
 
@@ -79,6 +89,8 @@ a {
     padding-left: 0;
     padding-right: 0;
 }
+
+
 /* Sizes */
 
 .bloc-lg {
@@ -92,6 +104,8 @@ a {
 .bloc-sm {
     padding: 20px 50px;
 }
+
+
 /* Background Styles */
 
 .bg-center,
@@ -113,6 +127,8 @@ a {
 .bg-repeat {
     background: repeat;
 }
+
+
 /* Dark theme */
 
 .d-bloc {
@@ -202,6 +218,8 @@ a {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
+
+
 /* Light theme */
 
 .l-bloc {
@@ -251,6 +269,8 @@ a {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
+
+
 /* Row Margin Offsets */
 
 .voffset {
@@ -260,6 +280,8 @@ a {
 .voffset-md {
     margin-top: 50px;
 }
+
+
 /* Bloc text custom styling */
 
 #bloc-1 h2 {
@@ -304,6 +326,8 @@ a {
 #bloc-8 p {
     font-size: 12px;
 }
+
+
 /* = NavBar
 -------------------------------------------------------------- */
 
@@ -362,6 +386,8 @@ a {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
 }
+
+
 /* Inverted navbar */
 
 .nav-invert .navbar .nav {
@@ -413,6 +439,8 @@ a {
 nav .caret {
     margin: 0 5px;
 }
+
+
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
@@ -425,6 +453,8 @@ nav .caret {
     margin-top: 10px;
     margin-bottom: 40px;
 }
+
+
 /* = Buttons
 -------------------------------------------------------------- */
 
@@ -443,38 +473,41 @@ nav .caret {
     margin: 0 0 5px 5px;
 }
 
-input[type=text], textarea {
-  -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
-  outline: none;
-  padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;
-  border: 1px solid #DDDDDD;
+input[type=text],
+textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
 }
- 
-input[type=text]:focus, textarea:focus {
-  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-  padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;
-  border: 1px solid rgba(81, 203, 238, 1);
+
+input[type=text]:focus,
+textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(81, 203, 238, 1);
 }
 
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    outline:0;
+    outline: 0;
     color: #FFF!important;
     background: rgba(0, 0, 0, .3);
 }
+
 
 /* Prevent ugly blue glow on chrome and safari */
 
 button,
 a,
 li {
-    outline:0;
+    outline: 0;
 }
 
 .btn-glossy {
@@ -491,6 +524,8 @@ li {
 .dropdown a .caret {
     margin: 0 0 0 5px
 }
+
+
 /* = Icons
 -------------------------------------------------------------- */
 
@@ -524,6 +559,8 @@ li {
 .icon-rounded.icon-xl {
     min-width: 162px;
 }
+
+
 /* = Text Widths
 -------------------------------------------------------------- */
 
@@ -555,6 +592,8 @@ li {
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
 }
+
+
 /* Empty space fillers - Used on empty blocs to fill them out */
 
 .empty-column,
@@ -571,13 +610,19 @@ li {
 .empty-column.thin {
     height: 150px;
 }
+
+
 /* iFrame */
 
 iframe {
     border: 0;
 }
+
+
 /* = Custom Colour Styling
 -------------------------------------------------------------- */
+
+
 /* Background colour styles */
 
 .bgc-white {
@@ -595,6 +640,8 @@ iframe {
 .bgc-medium-jungle-green {
     background-color: #202730;
 }
+
+
 /* Text colour styles */
 
 .tc-gray {
@@ -613,6 +660,8 @@ iframe {
     color: #47454B!important;
     !important
 }
+
+
 /* Button colour styles */
 
 .btn-pastel-red {
@@ -634,17 +683,23 @@ iframe {
     background: #a3a3a3;
     color: rgba(0, 0, 0, .5)!important;
 }
+
+
 /* Icon colour styles */
 
 .icon-white {
     color: #ffffff!important;
     border-color: #ffffff!important;
 }
+
+
 /* Bloc image backgrounds */
 
 .bg-geometry {
     background-image: url("img/geometry.png");
 }
+
+
 /* = Mobile adjustments 
 -------------------------------------------------------------- */
 
@@ -860,6 +915,7 @@ iframe {
     }
 }
 
+
 /*Custom added css*/
 
 input:focus,
@@ -932,11 +988,13 @@ button:focus {
     width: 200px;
 }
 
-#contactUs, #loginModal .modal-title {
+#contactUs,
+#loginModal .modal-title {
     color: #F95C5C;
 }
 
-#contactUs, #loginModal .modal-header {
+#contactUs,
+#loginModal .modal-header {
     padding-bottom: 10px;
 }
 
@@ -944,11 +1002,19 @@ button:focus {
     padding-top: 0px;
 }
 
-#loginModal {
-    
-}
-
 .titleContainer {
     margin-left: auto;
     margin-right: auto;
+}
+
+.emoji {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: black;
+}
+
+.betaPartners {
+    padding: 0 15px;
 }
