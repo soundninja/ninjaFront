@@ -25,20 +25,27 @@
             Typekit.load();
         } catch (e) {}
     </script>
-    <script src="./js/morphext.min.js"></script>
+    <script src="./js/typed.min.js"></script>
     <script>
-        $(document).ready(function () {
-            $("#js-rotating").Morphext({
-                // The [in] animation type. Refer to Animate.css for a list of available animations.
-                animation: "fadeInUp",
-                // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
-                separator: ",",
-                // The delay between the changing of each phrase in milliseconds.
-                speed: 2500,
-                complete: function () {
-                    // Called after the entrance animation is executed.
-                }
-            })
+        $(function () {
+            $("#typed").typed({
+                stringsElement: $('#typed-strings'),
+                // typing speed
+                typeSpeed: 100,
+                // time before typing starts
+                startDelay: 200,
+                // backspacing speed
+                backSpeed: 50,
+                // time before backspacing
+                backDelay: 2000,
+                // loop
+                loop: true,
+                // false = infinite
+                // show cursor
+                showCursor: true,
+                // character for cursor
+                cursorChar: "|"
+            });
         });
     </script>
 
@@ -50,6 +57,7 @@
     <div class="page-container">
 
         <!-- Navigation Bloc -->
+        <!--
         <div class="bloc l-bloc bgc-white" id="nav-bloc">
             <div class="container">
                 <nav class="navbar row">
@@ -72,6 +80,7 @@
                 </nav>
             </div>
         </div>
+-->
         <!-- Navigation Bloc END -->
 
         <!-- bloc-1 -->
@@ -80,11 +89,16 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="titleContainer">
-                            <h2 class="text-center mg-lg coolFont">
-					<div>The playlist</div>
-                                <div>of your</div>
-                                <div><span id="js-rotating">content, brand, event</span></div>
-				</h2>
+                            <div id="typed-strings">
+                                <p>content</p>
+                                <p>band page</p>
+                                <p>event page</p>
+                            </div>
+                            <p class="text-center mg-lg coolFont">The playlist
+                                <br />for your
+                                <br />
+                                <span id="typed"></span>
+                            </p>
                         </div>
                         <p class="mg-md text-center subHeader">Let readers <b>hear</b> your content</p>
                         <div class="row">
@@ -139,7 +153,7 @@
                                         minFamiliarity: 0.6707
                                     }
                                 </script>
-                                <script id="soundninja" src="https://CDN.soundninja.com/sn-prd/Soundninja.min.js" type="application/javascript" async="async"></script>
+                                <script id="soundninja" src="https://cdn.soundninja.com/sn-prd/Soundninja.min.js" type="application/javascript" async="async"></script>
                             </div>
                         </div>
                     </div>
@@ -217,7 +231,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <h2 class="mg-md text-center animated fadeInUp coolFont">
-					<span class="tc-aurometalsaurus" style="opacity:0.7;">Why you&rsquo;ll love</span><br />to blog with Soundninja
+					<span class="tc-aurometalsaurus" style="opacity:0.7;">Why you&rsquo;ll love</span><br />to create with Soundninja
 				</h2>
                     </div>
                 </div>
@@ -266,7 +280,7 @@
             <div class="container bloc-lg">
                 <div class="col-sm-12 col-md-8 col-md-offset-2">
                     <h2 class="text-center tc-outer-space mg-lg animated fadeIn coolFont">
-				Your blog, better
+				Let your content be heard
 			</h2>
                     <div class="text-center">
                         <a href="#contactUs" data-toggle="modal" class="btn btn-pastel-red animated fadeInDown animDelay02 btn-lg btn-d btn-glossy">Request Demo</a>
